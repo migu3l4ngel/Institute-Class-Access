@@ -1,0 +1,30 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root {
+    --semi-dark: #ccc;
+    --dark: #212529;
+}
+.container {
+    margin: 50px;
+    text-align: center;
+}
+.table tbody .course {
+    background: #ccc;
+    transition: all 0.5s linear;
+}
+.table tbody .course:hover {
+    transform: scale(1.2);
+    background: #8f0f0f;
+    border-radius: 10px;
+}
+td a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+td a:hover {
+    color: #fff;
+}
